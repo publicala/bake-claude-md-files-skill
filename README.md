@@ -16,6 +16,8 @@ Rules that require human judgment are kept as-is.
 
 ## Install
 
+The repo doubles as a plugin marketplace (required by Claude Code for `plugin install` to work). `marketplace.json` points to the plugin in this same repo.
+
 ### Via skills.sh
 
 ```bash
