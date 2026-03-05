@@ -1,6 +1,9 @@
 {
   "name": "publicala",
   "description": "Claude Code plugins by Publica.la",
+  "metadata": {
+    "description": "Claude Code plugins by Publica.la"
+  },
   "owner": { "name": "Publica.la" },
   "plugins": [
     {
