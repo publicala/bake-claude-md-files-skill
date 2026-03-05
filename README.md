@@ -4,6 +4,16 @@ Claude Code skill - converts CLAUDE.md rules into automated checks (eslint, phps
 
 Inspired by [Matthieu Napoli's tweet](https://x.com/matthieunapoli/status/2024507469394039057). We extended the original prompt into a proper Claude Code skill with tooling-first priorities.
 
+## How it works
+
+1. Reads all CLAUDE.md files and inventories existing tooling (linters, CI, git hooks, etc.)
+2. Identifies rules that can be expressed as automated checks
+3. Presents proposed changes for your approval
+4. Implements the checks using your project's existing tools
+5. Removes the automated rules from CLAUDE.md after checks pass
+
+Rules that require human judgment are kept as-is.
+
 ## Install
 
 ### Via skills.sh
@@ -35,15 +45,10 @@ cp skills/bake/SKILL.md .claude/skills/bake-claude-md-files/
 
 ## Usage
 
-```
-/bake-claude-md-files
-```
+Both installation methods invoke the same skill:
 
-When installed as a plugin:
-
-```
-/bake-claude-md-files:bake
-```
+- **skills.sh / manual**: `/bake-claude-md-files`
+- **Plugin marketplace**: `/bake-claude-md-files:bake`
 
 ## Resources
 
