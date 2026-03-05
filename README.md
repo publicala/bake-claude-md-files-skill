@@ -6,6 +6,21 @@ Inspired by [Matthieu Napoli's tweet](https://x.com/matthieunapoli/status/202450
 
 ## Install
 
+### Via skills.sh
+
+```bash
+npx skills add publicala/bake-claude-md-files
+```
+
+### Via Plugin Marketplace
+
+```
+/plugin marketplace add publicala/bake-claude-md-files
+/plugin install bake-claude-md-files@publicala
+```
+
+### Manual
+
 Copy `SKILL.md` into your skills directory:
 
 ```bash
@@ -22,6 +37,12 @@ cp SKILL.md .claude/skills/bake-claude-md-files/
 
 ```
 /bake-claude-md-files
+```
+
+When installed as a plugin:
+
+```
+/bake-claude-md-files:bake
 ```
 
 ## Resources

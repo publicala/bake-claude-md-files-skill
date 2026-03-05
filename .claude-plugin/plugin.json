@@ -1,0 +1,9 @@
+{
+  "name": "bake-claude-md-files",
+  "description": "Converts CLAUDE.md rules into automated checks, freeing up agent context.",
+  "version": "1.0.0",
+  "author": { "name": "Publica.la" },
+  "repository": "https://github.com/publicala/bake-claude-md-files",
+  "license": "MIT",
+  "keywords": ["claude-md", "linting", "automation", "context-optimization"]
+}
