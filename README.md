@@ -21,16 +21,16 @@ npx skills add publicala/bake-claude-md-files
 
 ### Manual
 
-Copy `SKILL.md` into your skills directory:
+Copy `skills/bake/SKILL.md` into your skills directory:
 
 ```bash
 # Global (all projects)
 mkdir -p ~/.claude/skills/bake-claude-md-files
-cp SKILL.md ~/.claude/skills/bake-claude-md-files/
+cp skills/bake/SKILL.md ~/.claude/skills/bake-claude-md-files/
 
 # Project-level
 mkdir -p .claude/skills/bake-claude-md-files
-cp SKILL.md .claude/skills/bake-claude-md-files/
+cp skills/bake/SKILL.md .claude/skills/bake-claude-md-files/
 ```
 
 ## Usage
