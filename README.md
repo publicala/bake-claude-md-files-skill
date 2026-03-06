@@ -1,5 +1,7 @@
 # bake-claude-md-files
 
+![bake-claude-md-files banner](banner.png)
+
 Claude Code skill - converts CLAUDE.md rules into automated checks (eslint, phpstan, pint, CI, etc.), freeing up agent context.
 
 Inspired by [Matthieu Napoli's tweet](https://x.com/matthieunapoli/status/2024507469394039057). We extended the original prompt into a proper Claude Code skill with tooling-first priorities.
