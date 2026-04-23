@@ -23,28 +23,28 @@ The repo doubles as a plugin marketplace (required by Claude Code for `plugin in
 ### Via skills.sh
 
 ```bash
-npx skills add publicala/bake-claude-md-files
+npx skills add publicala/bake-claude-md-files-skill
 ```
 
 ### Via Plugin Marketplace
 
 ```
-/plugin marketplace add publicala/bake-claude-md-files
+/plugin marketplace add publicala/bake-claude-md-files-skill
 /plugin install bake-claude-md-files@publicala
 ```
 
 ### Manual
 
-Copy `skills/bake/SKILL.md` into your skills directory:
+Copy `skills/bake-claude-md-files/SKILL.md` into your skills directory:
 
 ```bash
 # Global (all projects)
 mkdir -p ~/.claude/skills/bake-claude-md-files
-cp skills/bake/SKILL.md ~/.claude/skills/bake-claude-md-files/
+cp skills/bake-claude-md-files/SKILL.md ~/.claude/skills/bake-claude-md-files/
 
 # Project-level
 mkdir -p .claude/skills/bake-claude-md-files
-cp skills/bake/SKILL.md .claude/skills/bake-claude-md-files/
+cp skills/bake-claude-md-files/SKILL.md .claude/skills/bake-claude-md-files/
 ```
 
 ## Usage
