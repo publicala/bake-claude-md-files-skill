@@ -4,6 +4,8 @@
 
 Claude Code skill - converts CLAUDE.md rules into automated checks (eslint, phpstan, pint, CI, etc.), freeing up agent context.
 
+The inverse of [feed-claude-md-files](https://github.com/publicala/feed-claude-md-files-skill): `bake` converts crystallized prose rules into tooling once they're stable; `feed` adds prose rules from observed patterns.
+
 Inspired by [Matthieu Napoli's tweet](https://x.com/matthieunapoli/status/2024507469394039057). We extended the original prompt into a proper Claude Code skill with tooling-first priorities.
 
 ## How it works
@@ -56,6 +58,7 @@ Both installation methods invoke the same skill:
 
 ## Resources
 
+- [feed-claude-md-files](https://github.com/publicala/feed-claude-md-files-skill) - The inverse skill: surfaces patterns into new CLAUDE.md rules
 - [CLAUDE.md Guide](https://github.com/publicala/claude-md-guide) - Presentation slides about CLAUDE.md files
 - [CLAUDE.md docs](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation
 - [Matthieu Napoli's tweet](https://x.com/matthieunapoli/status/2024507469394039057) - Original inspiration
